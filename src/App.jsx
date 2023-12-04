@@ -1,21 +1,16 @@
-import Navbar from './components/Navbar'
-import { Outlet } from 'react-router-dom'
-import './App.css'
+import { Outlet } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
-
   return (
-    <>
-      <div>
-        <Navbar />
-        <div className="container">
-          <Outlet />
-        </div>
+    <div className="App">
+      <Navbar />
+      <div className='container'>
+        <h1><span className='qt'></span><span className='qt'></span></h1>
+        <Outlet />
       </div>
-      <p className="read-the-docs">
-     
-      </p>
-    </>
+    </div>
   )
 }
 
