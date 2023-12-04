@@ -17,6 +17,7 @@ const NewPost = () => {
       await blogFetch.post("/posts", {
         body: post
       });
+      console.log("post criado com sucesso.")
 
     }
 
