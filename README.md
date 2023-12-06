@@ -1,8 +1,7 @@
-# React + Vite
+A ideia do projeto é ser um Blog focado em temas da Tecnologia da informação que funcionasse como uma comunidade de entusiastas de TI.
+Utilizamos como MOCK API o jsonplaceholder, utilizamos o axios para consumir esse MOCK API. e o react-router-dom para realizar a conexxão das rotas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para que a aplicação funcione é essencial que após clonar o repositório, executar o comando npm install vite.
+Após isso executar utilizando o npm run dev.
